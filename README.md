@@ -1,6 +1,9 @@
 # DISCRETE-BJT-CASCODE-AMPLIFIER-FOR-BANDWIDTH-IMPROVEMENT-AND-GAIN-STABILITY
 Comparative study of common-emitter and cascode amplifiers for high-frequency applications. Demonstrates bandwidth enhancement, gain behavior, and Miller effect reduction using discrete BJTs. Validated through hardware implementation and waveform analysis, highlighting practical analog and RF design insights.
 # High-Frequency Cascode Amplifier: A Comparative Study of Gain, Bandwidth, and Miller Effect
+<p align="center">
+  <img src="circuit example.jpg" width="450">
+</p>
 
 ## Description
 
@@ -8,7 +11,7 @@ This project presents a detailed experimental study of high-frequency amplifier 
 
 ---
 
-## ⚙️ Introduction
+## Introduction
 
 In high-frequency analog circuits, amplifier performance is often limited by parasitic capacitances, particularly the Miller capacitance between the input and output of a transistor. This project investigates how the cascode configuration overcomes these limitations by isolating the input and output nodes, thereby significantly improving bandwidth while maintaining high gain.
 
@@ -43,6 +46,9 @@ This leads to a significant reduction in high-frequency response.
 ---
 
 ### Cascode Amplifier
+<p align="center">
+  <img src="circuit.jpg" width="450">
+</p>
 
 The cascode configuration combines:
 
@@ -84,6 +90,9 @@ Input → BJT (CE) → BJT (CB) → Output
 ---
 
 ## Components Used
+<p align="center">
+  <img src="prototype.jpg" width="450">
+</p>
 
 * Transistors: BC547 (2 units for cascode)
 * Resistors: 1kΩ, 10kΩ, 47kΩ
@@ -94,6 +103,9 @@ Input → BJT (CE) → BJT (CB) → Output
 ---
 
 ## Experimental Analysis
+<p align="center">
+  <img src="simulation.jpg" width="450">
+</p>
 
 Both circuits were built and tested under identical conditions.
 
